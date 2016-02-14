@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+	git init : initializes a repository. It creates .git folder which contains history of the repository and some other meta data
+	why? thats the place where we put meta data
