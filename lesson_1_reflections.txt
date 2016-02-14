@@ -1,0 +1,27 @@
+how did viewing a FC between two versions help you spot the bug?
+	FC checks for differences between two files, hence when there is typo in new file FC shows this as a difference. 
+	In this way it was helpful to spot the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	After making some change in code, if it crashes the previosly working program then keeping the history would help to restore back to previous version.
+	we can see how software evolved by maintaining the history.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	pros: commits are done at logical points.
+	cons: might loose some data in case of failure, in that case auto save is good option.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	because git is meant for storing code, project, which is most of the times collection of files.
+	this files are most of the times interrelated hence it makes sence to saving multiple files in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+	git log 				: will show all the previous commits and message
+	git log --stat			: will show all the previous commits as well as differences of each commit from previous commit
+	git diff id_old id_new 	: will show differences in the new file from previous commit '-' means deleted, '+' means added line.
+
+How might using version control make you more confident to make changes that could break something?
+	because I am sure, even if I break something I can go back to previous working version and re do from there	
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	I am making projects for udacity nanodegree and I want all them to be version controlled.
+	I am also making course project on Web Technology which I want to be version controlled.	
