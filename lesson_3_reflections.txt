@@ -1,2 +1,8 @@
+command to cache credentials : git config --global credential.helper wincred
+
 When would you want to use a remote repository rather than keeping all your work local?
-  when there are more than one contributor to project, and when we want our project safe.
+	when there are more than one contributor to project, and when we want our project safe.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	if working on new feature and there are some to be solved, then we might want to first finish the new feature and then solve the conflicts.
+	This way we may want to pull changes manually rather than being up-to-date with remote.
